@@ -1,9 +1,9 @@
 # HTML
 Exercícios, desafios e páginas HTML
 
-##Conteúdo da pasta **exercícios**:
+## Conteúdo da pasta **exercícios**:
 
-##Conteúdo da pasta **desafios**:
+## Conteúdo da pasta **desafios**:
 * Desafio 1 - Criar uma página HTML
 
 "A ideia deste Desafio de Projeto é elaborar um website, utilizando uma estrutura bem básica, utilizando tags aprendidas durante as aulas práticas:
