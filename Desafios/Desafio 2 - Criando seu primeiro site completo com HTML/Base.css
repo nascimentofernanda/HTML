@@ -37,5 +37,35 @@ body {
 .footer {
     background-color: rgb(25,25,112);
     color: white;
-    min-height: 150px;
+    text-align: center;
+}
+.tabela {
+    text-align: center;
+}
+#formulario
+{
+  display:block;
+}
+#formulario label
+{
+  left:19px;
+  margin-right:5px;
+}
+#formulario input.nome
+{
+  left:95px;
+  top:23px;
+  width:225px;
+}
+#formulario input.email
+{
+  left:95px;
+  margin-top:2px;
+  width:225px;
+}
+#formulario input.assunto
+{
+  left:95px;
+  margin-top:2px;
+  width:225px;
 }

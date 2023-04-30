@@ -7,7 +7,7 @@
     <title>Clínica Médica Boa Saúde</title>
     <link rel="stylesheet" href="base.css">
 
-    <style type="text/css">
+    <style>
         a:link{
             color: white;
             text-decoration:none;
@@ -16,8 +16,23 @@
             color:rgb(25,25,112);
             text-decoration:none;
         }
+        table, tr, td, th{
+		border: solid 1px grey;
+		width:450px;
+		padding:0px;
+		font-size:20px;
+		border-collapse:collapse;
+        }
+        table thead th {
+            background-color: lavender;
+        }
+        table tbody tr:hover td {
+            background-color: lavender;
+            cursor:pointer;
+        }
+
     </style>
-</head>
+</head>s
 <body>
     <div class="wrapper">
         <div class="menu">
@@ -47,22 +62,22 @@
                 <h4>Oftalmologia</h4>
                 <p>A oftalmologia é a especialidade médica que se dedica ao diagnóstico e tratamento de doenças e distúrbios oculares. Os oftalmologistas são médicos especializados em cuidar dos olhos e da visão. Além disso, os oftalmologistas também realizam exames de rotina para avaliar a saúde dos olhos e da visão. Esses exames incluem medição da acuidade visual, avaliação do campo visual, avaliação da pressão intraocular, entre outros.</p>
                 
-                <h4>Tabela de horários de atendimento</h4>
-                <table align="center">
+                <h4 class="tabela">Tabela de horários de atendimento</h4>
+                <table class="tabela" widht="250" align="center">
                     <thead>
                         <tr>
-                            <td>
+                            <th>
                             Serviços
-                            </td>
-                            <td>
+                            </th>
+                            <th>
                             Segunda à sexta
-                            </td>
-                            <td>
+                            </th>
+                            <th>
                             Sábado
-                            </td>
-                            <td>
+                            </th>
+                            <th>
                             Feriados
-                            </td>
+                            </th>
                         </tr>
                     </thead>
                     <tbody>
