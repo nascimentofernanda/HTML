@@ -1,5 +1,5 @@
-# HTML
-Exercícios, desafios e páginas HTML
+# HTML/CSS/JavaScript
+Exercícios, desafios, páginas e materiais sobre HTML, CSS e Javascript
 
 ### Conteúdo da pasta **exercícios**:
 
